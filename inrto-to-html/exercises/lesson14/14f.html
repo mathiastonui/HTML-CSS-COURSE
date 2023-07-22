@@ -1,9 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      div{
+        font-family: Arial;
+      }
+      .profile-picture{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+      }
+      .profile-column{
+           
+        background-color: rgb(29, 29, 29);
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        position: fixed;
+        top: 0px;
+        left: 0;
+        bottom: 0;
+      }
+
+      .info-column{
+        background-color: rgb(56, 56, 56);
+        position: fixed;
+        top: 0;
+        left: 70px;
+        bottom: 0;
+        width: 150px;
+        color: white;
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+
+      .info-row{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-bottom: 12px;
+        
+        
+      }
+      .hashtag{
+        
+        padding-bottom: 12px;
+        color: rgb(212, 212, 212);
+        font-weight: 12px;
+      }
+      img {
+        padding-bottom: 4px;
+      }
+    </style>
 
   </head>
-  <body>
+  <body style="height: 1000px;">
+    <div class="profile-column">
+       <div> <img class="profile-picture" src="miriam.jpg"> </div>
+       <div> <img class="profile-picture" src="download.jpg"> </div>
+       <div> <img class="profile-picture" src="Mat.jpg"> </div>
+    </div>
+
+    <div class="info-column">
+      <div class="info-row">
+        <div>INFO</div>
+        <div style="color: rgb(212, 212, 212);">+</div>
+      </div>
+      <div class="hashtag"># new-videos</div>
+      <div class="hashtag"># updates</div>
+      <div class="hashtag"># faq</div>
+    </div>
     
   </body>
 </html>

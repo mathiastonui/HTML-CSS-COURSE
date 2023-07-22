@@ -1,0 +1,19 @@
+.dog{
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.centre{
+  width: 120px;
+  height: 120px;
+  object-fit:cover;
+  margin-right: 30px;
+}
+
+.circle{
+  width: 120px;
+  height: 120px;
+  object-fit:cover;
+  border-radius: 50%;
+}

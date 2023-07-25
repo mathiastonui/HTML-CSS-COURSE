@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        height: 1000px;
+      }
+      .item{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .item-region{
+        position: relative;
+        display: inline-block;
+      }
+      .discount{
+        position: absolute;
+        top: 5px;
+        right: 0;
+
+        background-color: black;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: Arial;
+      }
+
+      .add-to-cart-button{
+        background-color: white;
+        border: solid;
+        border-width: 1px;
+      }
+
+      .add-to-cart-region{
+        position: absolute;
+        
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="item-region">
+      <img class="item" src="shirt2.jpg">
+      <div class="discount">20% OFF</div>
+      <div class="add-to-cart-region">
+        <button class="add-to-cart-button">Add to Cart</button>
+      </div>
+      
+      
+    </div>
+    
+  </body>
+</html>
